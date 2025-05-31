@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "chalk": "4.1",
+    "discord.js": "^14.19.3",
+    "express-rate-limit": "^7.5.0",
+    "express.js": "^1.0.0",
+    "mysql2": "^3.14.1",
+    "node-fetch": "^2.7.0",
+    "quick.db": "^9.1.7"
+  },
+  "name": "latch",
+  "version": "1.0.0",
+  "description": "Discord api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "start": "node ."
+  },
+  "keywords": [
+    "discord",
+    "api"
+  ],
+  "author": "Dominikhun250",
+  "license": "MIT"
+}

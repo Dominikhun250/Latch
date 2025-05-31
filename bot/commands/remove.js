@@ -21,7 +21,7 @@ module.exports = {
         const exists = await db().get(key);
 
         if (!exists) {
-            return message.channel.send(`Not founded id: \`${key}\``);
+            return message.channel.send(`Not found id: \`${key}\``);
         }
 
         await db().delete(key);

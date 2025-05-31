@@ -10,7 +10,7 @@ fs.readdirSync(endpointsDir).forEach(file => {
         const route = require(path.join(endpointsDir, file));
         const routePath = `/${file.replace('.js', '')}`;
         router.use(routePath, route);
-        //console.log(`Betöltve: ${routePath}`);
+        //console.log(`Loaded: ${routePath}`);
     }
 });
 

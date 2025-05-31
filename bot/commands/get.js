@@ -16,7 +16,7 @@ module.exports = {
         const filtered = allData.filter(entry => entry.id.startsWith(`${userId}-`));
 
         if (filtered.length === 0) {
-            return message.channel.send('Not founded any data.');
+            return message.channel.send('Not found any data.');
         }
 
         let reply = `**Datas for the ${userId}:**\n`;

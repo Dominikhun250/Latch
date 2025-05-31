@@ -16,7 +16,7 @@ module.exports = {
             command.execute(message, args);
         } catch (error) {
             console.error(error);
-            message.reply('Hiba történt a parancs futtatása közben.');
+            message.reply('Error when we tried run the command.');
         }
     }
 };

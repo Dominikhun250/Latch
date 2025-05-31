@@ -168,7 +168,7 @@ The bot provides the following text commands (default prefix: `.`):
   * Download and unzip the latest release.
   * Run `npm install`
   * Edit the `config.json`
-  * Run node .
+  * Run `node .`
   * Check the http://localhost:3000/
 
 ## License

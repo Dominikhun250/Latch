@@ -10,7 +10,7 @@ module.exports = (client) => {
         const activityType = ActivityType[config.status_style];
 
         if (!activityType) {
-            console.warn(`⚠️ Érvénytelen status_style: ${config.status_style}. Alapértelmezett: Playing`);
+            console.warn(`⚠️ Invalid status_style: ${config.status_style}. Default: Playing`);
         }
 
         client.user.setPresence({

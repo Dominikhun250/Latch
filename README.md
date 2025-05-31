@@ -164,6 +164,13 @@ The bot provides the following text commands (default prefix: `.`):
 
 > ⚠️ Be sure to keep your `TOKEN` and database credentials private!
 
+## Installation
+  * Download and unzip the latest release.
+  * Run `npm install`
+  * Edit the `config.json`
+  * Run node .
+  * Check the http://localhost:3000/
+
 ## License
 
 MIT

@@ -1,7 +1,6 @@
 const client = require('../../bot/client');
 
 async function getImage(userId, format) {
-    console.log(`format: ${format}`)
     try {
         for (const [, guild] of client.guilds.cache) {
             try {

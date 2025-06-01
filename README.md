@@ -10,11 +10,13 @@ Latch is a lightweight API service for collecting and retrieving data based on D
 
 ### Public Endpoints
 
-* `GET /user/:discord_user_id` - Retrieves data for the specified Discord user.
-* `GET /user/avatar/:id/:format` - Returns the avatar of the specified user in the given format (e.g., png, jpg).
-* `GET /user/banner/:id/:format` - Returns the banner of the specified user in the given format.
+* `GET /api/v1/user/:discord_user_id` - Retrieves data for the specified Discord user.
+* `GET /api/v1/user/avatar/:id/:format` - Returns the avatar of the specified user in the given format (e.g., png, jpg).
+* `GET /api/v1/user/banner/:id/:format` - Returns the banner of the specified user in the given format.
 
 ### Example Response
+
+* Check the live site: https://latch.dominikhun250.eu/api/v1/user/713087767629922404/
 
 ```json
 {
@@ -131,8 +133,8 @@ Latch is a lightweight API service for collecting and retrieving data based on D
 The bot provides the following text commands (default prefix: `.`):
 
 * `.set` - Adds a new custom field.
-* `.delete` - Deletes a specific custom field.
-* `.remove` - Alias for `.delete`.
+* `.get` - Check a user or your own custom fields
+* `.remove` - Delete a custom field.
 
 > The API key required for modifying data can be generated or obtained by using `.apikey` in a private message with the bot.
 

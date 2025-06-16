@@ -148,7 +148,6 @@ The bot provides the following text commands (default prefix: `.`):
   "status_message": "you <3",
   "status_stream_url": "https://www.twitch.tv/username",
   "TOKEN": "YOUR_DISCORD_BOT_TOKEN",
-  "Guild": "YOUR_GUILD_ID",
   "prefix": ".",
   "ratelimit": {
     "second": 5,
@@ -167,7 +166,7 @@ The bot provides the following text commands (default prefix: `.`):
 > ⚠️ Be sure to keep your `TOKEN` and database credentials private!
 
 ## Installation
-  * Download and unzip the latest release.
+  * Download and unzip the latest release. (Recomonded to clone the repo)
   * Run `npm install`
   * Edit the `config.json`
   * Run `node .`

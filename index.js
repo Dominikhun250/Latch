@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const routes = require('./routes');
 const config = require('./config.json')
 const client = require('./bot/client.js')
@@ -9,6 +10,8 @@ const { limiter } = require('./api/middlewares/ratelimit.js')
 app.use(addPoweredBy);
 
 app.use(limiter);
+
+app.use(cors());
 
 (async () => {
     try {

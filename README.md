@@ -10,9 +10,9 @@ Latch is a lightweight API service for collecting and retrieving data based on D
 
 ### Public Endpoints
 
-* `GET /api/v1/user/:discord_user_id` - Retrieves data for the specified Discord user.
-* `GET /api/v1/user/avatar/:id/:format` - Returns the avatar of the specified user in the given format (e.g., png, jpg).
-* `GET /api/v1/user/banner/:id/:format` - Returns the banner of the specified user in the given format.
+* `[GET]` /api/v1/user/:discord_user_id - Retrieves data for the specified Discord user.
+* `[GET]` /api/v1/user/avatar/:id/:format - Returns the avatar of the specified user in the given format (e.g., png, jpg).
+* `[GET]` /api/v1/user/banner/:id/:format - Returns the banner of the specified user in the given format.
 
 ### Example Response
 

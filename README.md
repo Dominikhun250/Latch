@@ -170,7 +170,7 @@ The bot provides the following text commands (default prefix: `.`):
   * Run `npm install`
   * Edit the `config.json`
   * Run `node .`
-  * Check the http://localhost:3000/
+  * Check the `localhost:3000`
 
 ## License
 

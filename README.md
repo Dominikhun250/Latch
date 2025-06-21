@@ -16,7 +16,7 @@ Latch is a lightweight API service for collecting and retrieving data based on D
 
 ### Example Response
 
-* Check the live site: https://latch.dominikhun250.eu/api/v1/user/713087767629922404/
+* Check the live site [here]( https://latch.dominikhun250.eu/api/v1/user/713087767629922404/)!
 
 ```json
 {

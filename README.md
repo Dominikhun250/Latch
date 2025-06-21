@@ -112,7 +112,7 @@ Latch is a lightweight API service for collecting and retrieving data based on [
 
 ### Custom Data Endpoints
 
-* `PUT` /custom/users/:userId/
+* `[PUT]` /custom/users/:userId/
 
   * Requires API key (passed in headers or as a query param `?apikey=...`).
   * Body must include:
@@ -126,7 +126,7 @@ Latch is a lightweight API service for collecting and retrieving data based on [
 * `DELETE /custom/users/:userId/:customId`
 
   * Requires API key.
-* `GET /custom/users/:uuid` - Retrieves custom data for a user based on their UUID.
+* `[GET /custom/users/:uuid` - Retrieves custom data for a user based on their UUID.
 
 ## Discord Bot Commands
 

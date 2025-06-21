@@ -5,7 +5,7 @@ const limiter = rateLimit({
     windowMs: config.ratelimit.second * 1000,
     max: config.ratelimit.max_request,
     handler: (req, res) => {
-        res.status(403).json({
+        res.status(429).json({
             message: 'Ratelimited.',
             success: false,
         });

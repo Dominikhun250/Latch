@@ -4,7 +4,7 @@ Latch is a lightweight API service for collecting and retrieving data based on D
 
 ## Requirements
 
-* Node.js v18+
+* [Node.js v18+]([https://link-url-here.org](https://nodejs.org/en/download))
 
 ## Endpoints
 

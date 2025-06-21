@@ -1,6 +1,6 @@
 # Latch
 
-Latch is a lightweight API service for collecting and retrieving data based on Discord user information.
+Latch is a lightweight API service for collecting and retrieving data based on [Discord](https://en.wikipedia.org/wiki/Discord) user information.
 
 ## Requirements
 
